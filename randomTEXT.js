@@ -21,7 +21,7 @@ if (random == 5) {
     document.getElementById("new_text_fool").innerHTML = "Eaglercraft Is Minecraft :)";
 }
 if (random == 6) {
-    document.getElementById("new_text_fool").innerHTML = "Imagine not reading this! :)";
+    document.getElementById("new_text_fool").innerHTML = "Imagine not reading this! >:(";
 }
 if (random == 7) {
     document.getElementById("new_text_fool").innerHTML = "I have Android. :(";
