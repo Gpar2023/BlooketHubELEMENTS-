@@ -1,10 +1,11 @@
  @import url('https://cdn.jsdelivr.net/gh/Gpar2023/The-Minecraft-FONT@main/MinecraftRegular-Bmg3.ttf');
 /* THE FONT HAS ALL THE RIGHTS ON GITHUB ON THE MINECRAFT FONT RESPOSITORY!! */
+.logo {
+ 
+}
 body {
     font-family: 'Minecraft';
     display: flex;
-    justify-content: center;
-    align-items: center;
     height: 100vh;
     color: white;
 }
