@@ -13,7 +13,7 @@ body {
 .animated-text {
     transform: rotate(-11deg);
     color:rgb(255, 255, 79);
-    animation: growShrink 1s infinite ease-in;
+    animation: growShrink 0.8s infinite ease-in;
 }
 
 @keyframes growShrink {
