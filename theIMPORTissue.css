@@ -17,12 +17,12 @@ body {
 
 @keyframes growShrink {
     0% {
-        font-size: 35px;
+        font-size: 35%;
     }
     50% {
-        font-size: 40px;
+        font-size: 40%;
     }
     100% {
-        font-size: 35px;
+        font-size: 35%;
     }
 }
