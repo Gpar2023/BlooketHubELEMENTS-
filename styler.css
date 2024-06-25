@@ -1,5 +1,13 @@
-@import url('https://cdn.jsdelivr.net/gh/Gpar2023/The-Minecraft-FONT@main/MinecraftRegular-Bmg3.otf');
+@import url('https://cdn.jsdelivr.net/gh/Gpar2023/The-Minecraft-FONT@main/MinecraftRegular-Bmg3.ttf');
 /* THE FONT HAS ALL THE RIGHTS ON GITHUB ON THE MINECRAFT FONT RESPOSITORY!! */
+
+@font-face {
+    font-family: 'MinecraftRegular';
+    src: url('https://cdn.jsdelivr.net/gh/Gpar2023/The-Minecraft-FONT@main/MinecraftRegular-Bmg3.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
 body {
     font-family: 'Minecraft';
     display: flex;
