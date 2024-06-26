@@ -1,7 +1,8 @@
  @import url('https://cdn.jsdelivr.net/gh/Gpar2023/The-Minecraft-FONT@main/MinecraftRegular-Bmg3.ttf');
 /* THE FONT HAS ALL THE RIGHTS ON GITHUB ON THE MINECRAFT FONT RESPOSITORY!! */
 .logo {
- 
+ display: flex;
+ font-size: 23px;
 }
 body {
     font-family: 'Minecraft';
@@ -17,12 +18,12 @@ body {
 
 @keyframes growShrink {
     0% {
-        font-size: 35%;
+        font-size: 65%;
     }
     50% {
-        font-size: 40%;
+        font-size: 70%;
     }
     100% {
-        font-size: 35%;
+        font-size: 65%;
     }
 }
