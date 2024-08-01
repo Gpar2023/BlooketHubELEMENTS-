@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+        html {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            width: auto;
+            font-family: "Titan One";
+            background-color: #b0e6ff;
+            background: linear-gradient(#b6f3ff, #9198e5);
+            text-align: center;
+            color: rgb(42, 42, 42);
+        }
+        #temp, #cond, #wind, #humid, #update, #cloud {
+            margin: 10px 0;
+        }
+        #temp { 
+            font-size: 45px; 
+        }
+        #cond { 
+            font-size: 34px; 
+        }
+        #wind { 
+            font-size: 42.5px; 
+        }
+        #humid { 
+            font-size: 23px; 
+        }
+        #update {
+            font-size: 18px;
+            color: gray;
+        }
+        #img, img {
+            margin: 20px 0;
+            height: 160px;
+            width: auto;
+            border-radius: 25px;
+        }
+        button {
+            border-color: #b6f3ff;
+            height: 53px;
+            width: calc(53px * 2);
+            font-family: 'Titan One';
+            border-radius: 34px;
+            border: 2px solid #b6f3ff;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #b6f3ff;
+        }
+        @keyframes scroll-left {
+            from {
+                transform: translateX(0%);
+            }
+            to {
+                transform: translateX(-100%);
+            }
+        }
+        .scrolling-text-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: red;
+            color: white;
+            font-size: 24px;
+            white-space: nowrap;
+            overflow: hidden;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+        .scrolling-text {
+            display: inline-block;
+            padding-left: 100%;
+            animation: scroll-left 30s linear infinite;
+        }
